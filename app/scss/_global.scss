@@ -1,0 +1,22 @@
+html,
+body {
+	height: 100%;/*sticky footer*/
+	display: flex;/*sticky footer*/
+	flex-direction: column;/*sticky footer*/
+	margin: 0;
+	font-family: 'Roboto';
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color: $text;
+}
+body > * {
+	flex-shrink: 0;
+	/*sticky footer*/
+  }
+.footer{
+	margin-top: auto;/*sticky footer*/
+}
+
+
+

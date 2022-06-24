@@ -4,11 +4,11 @@ body {
 	display: flex;/*sticky footer*/
 	flex-direction: column;/*sticky footer*/
 	margin: 0;
-	font-family: 'Roboto';
-	font-size: 15px;
-	line-height: 24px;
-	font-weight: 400;
-	color: $text;
+	font-size: 22px;
+	line-height: 1;
+	font-weight: 500;
+	font-family: 'Gilroy';
+	color: #1A1A1A;
 }
 body > * {
 	flex-shrink: 0;
@@ -17,6 +17,14 @@ body > * {
 .footer{
 	margin-top: auto;/*sticky footer*/
 }
-
+button{
+	cursor: pointer;
+}
+.container{
+	max-width: 1533px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
 
 

@@ -1,0 +1,46 @@
+.header{
+    height: 86px;
+    background-color: #1A1A1A;
+}
+.header__inner {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.header__inner-social {
+    display: flex;
+    margin-left: 30px;
+}
+.header__register-link{
+    margin-right: 91px;
+}
+.header__register-link,
+.header__user-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.header__inner-link + .header__inner-link{
+    margin-left: 10px;
+}
+.header__inner-register {
+    display: flex;
+    align-items: center;
+   
+}
+.header__inner-user {
+    margin-right: 30px;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #627FFF;
+    border-radius: 40px;
+    height: 55px;
+    padding: 20px;
+    align-items: center;
+}
+.header__user-img {
+    margin-right: 15px;
+}

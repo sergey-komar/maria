@@ -1,0 +1,98 @@
+.answers {
+    padding: 120px 0 50px;
+    position: relative;
+    z-index: 20;
+}
+.container {
+}
+.answers-box {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+.answers-box__inner {
+    max-width: 720px;
+}
+.answers-box__title {
+    margin-bottom: 45px;
+    text-align: left;
+}
+.answers-box__subtitle {
+    text-align: left;
+}
+.answers-box__item {
+    max-width: 354px;
+    padding: 30px;
+    border: 1px solid #dbd9d9;
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    text-align: center;
+}
+.answers-box__item:hover{
+    background-color: $blue;
+    color: $white;
+    transition: all .3s ease-in;
+}
+.answers-box__item-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.answers-box__item-title {
+    font-size: 41px;
+    line-height: 1;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.answers-box__item-text {
+    font-size: 22px;
+    text-align: left;
+}
+
+.answers__btn{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 439px;
+    height: 60px;
+    padding: 20px;
+    background-color: $blue;
+    color: $white;
+    border-radius: 40px;
+    border: none;
+    line-height: 1;
+}
+
+@media(max-width:780px){
+    .answers-box__title{
+        font-size: 40px;
+    }
+    .answers-box{
+        justify-content: center;
+    }
+}
+@media(max-width:560px){
+    .answers-box__title{
+        font-size: 24px;
+    }
+    .answers{
+        padding: 40px 0 20px;
+    }
+    .answers-box__subtitle{
+        font-size: 20px;
+    }
+    .answers-box__item-title{
+        font-size: 18px;
+    }
+    .answers-box__item-text{
+        font-size: 16px;
+        line-height: 1;
+    }
+    .answers__btn{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}

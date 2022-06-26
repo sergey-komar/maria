@@ -28,14 +28,15 @@
          </a>
         </div>
         <div class="header__inner-register">
-          <a class="header__register-link" href="#">Регистрация</a>
-        <div class="header__inner-user">
-          <div class="header__user-img">
-            <img src="./images/user.png" alt="img">
+          <form class="form-register" action="#">
+            <input  class="header__register-link" type="text" placeholder="Регистрация">
+          </form>
+          <div class="header__inner-user">
+              <div class="header__user-img">
+                <img src="./images/user.png" alt="img">
+              </div>
+              <a href="#" class="header__user-text">Личный кабинет</a>
           </div>
-        
-          <a href="#" class="header__user-text">Личный кабинет</a>
-        </div>
       </div>
       </div>
     </div>
@@ -66,7 +67,10 @@
                   </ul>
                 </nav>
                 <div class="heading-block__button">
-                  <a href="#" class="heading-block__btn">Найти психолога</a>
+                  <button  class="heading-block__btn">Найти психолога</button>
+                </div>
+                <div class="nav-icon">
+                  <div class="nav-icon__middle"></div>
                 </div>
               </div>
             </div>
@@ -101,7 +105,7 @@
             </div>
           </div>
         </section>
-        <div class="persona">
+         <div class="persona">
             <div class="container">
               <div class="persona__box">
                 <div class="persona__box-content">
@@ -126,12 +130,466 @@
                     Психотерапия помогает повысить качество жизни.
                   </p>
                 </div>
-               
               </div>
             </div>
         </div>
+
+        <section class="answers">
+          <div class="container">
+            <div class="answers-box">
+              <div class="answers-box__inner">
+                <h3 class="answers-box__title title">
+                  Вы найдёте ответы 
+                  на самые актуальные вопросы
+                </h3>
+                <div class="answers-box__subtitle subtitle">
+                  и в результате Вы сможете:
+                </div>
+              </div>
+              <div class="answers-box__item">
+                <img src="./images/answers/answers-1.png" alt="img" class="answers-box__item-img">
+                <div class="answers-box__item-title">
+                  Разобраться в своем прошлом
+                </div>
+                <div class="answers-box__item-text">
+                  Отпустить обиды, 
+                  избавиться от детских
+                  травм
+                </div>
+              </div>
+              <div class="answers-box__item">
+                <img src="./images/answers/answers-2.png" alt="img" class="answers-box__item-img">
+                <div class="answers-box__item-title">
+                  Подружиться с собой
+                </div>
+                <div class="answers-box__item-text">
+                  Принять себя, начать 
+                  ценить, разрешить 
+                  ошибаться
+                </div>
+              </div>
+              <div class="answers-box__item">
+                <img src="./images/answers/answers-3.png" alt="img" class="answers-box__item-img">
+                <div class="answers-box__item-title">
+                  Стать
+                  счастливым
+                </div>
+                <div class="answers-box__item-text">
+                  Научиться жить здесь 
+                  и сейчас, быть полными 
+                  энергии
+                </div>
+              </div>
+              <div class="answers-box__item">
+                <img src="./images/answers/answers-4.png" alt="img" class="answers-box__item-img">
+                <div class="answers-box__item-title">
+                  Спокойно думать о будущем
+                </div>
+                <div class="answers-box__item-text">
+                  Справляться с тревогой
+                  и стрессами 
+                </div>
+              </div>
+              <div class="answers-box__item">
+                <img src="./images/answers/answers-5.png" alt="img" class="answers-box__item-img">
+                <div class="answers-box__item-title">
+                  Преодолевать вызовы времени
+                </div>
+                <div class="answers-box__item-text">
+                  Знать свои ресурсы и 
+                  опираться на них всегда
+                </div>
+              </div>
+              <div class="answers-box__item">
+                <img src="./images/answers/answers-6.png" alt="img" class="answers-box__item-img">
+                <div class="answers-box__item-title">Отстаивать свои границы</div>
+                <div class="answers-box__item-text">Научиться говорить 
+                  "нет" без чувства вины</div>
+              </div>
+
+            </div>
+            <button class="answers__btn">Хочу обсудить ситуацию</button>
+          </div>
+        </section>
+
+        <section class="video">
+          <div class="container">
+            <h3 class="video__title title">
+              Начать получать пользу уже сейчас
+            </h3>
+            <div class="video__subtitle subtitle">
+              Посмотрите видео по самым актуальным психологическим темам бесплатно!
+            </div>
+            <div class="video__box">
+              <div class="video__box-item">
+                <div class="video-youtube">
+                  <iframe class="video__iframe"  height="315" src="https://www.youtube.com/embed/GMOB8dGN8TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video__box-text">
+                  Текст текст текст 
+                  текст текст текст текст
+                </p>
+              </div>
+              <div class="video__box-item">
+                <div class="video-youtube">
+                  <iframe class="video__iframe"  height="315" src="https://www.youtube.com/embed/GMOB8dGN8TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video__box-text">
+                  Текст текст текст 
+                  текст текст текст текст
+                </p>
+              </div>
+              <div class="video__box-item">
+                <div class="video-youtube">
+                  <iframe class="video__iframe"  height="315" src="https://www.youtube.com/embed/GMOB8dGN8TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video__box-text">
+                  Текст текст текст 
+                  текст текст текст текст
+                </p>
+              </div>
+            </div>
+            <a href="#" class="video__btn button">Смотреть больше</a>
+          </div>
+        </section>
+
+        <section class="slider">
+          <div class="container">
+            <h3 class="slider__title title">Мы помогаем людям каждый день</h3>
+            <p class="slider__subtitle subtitle">вот что они говорят о PERSONA и о своих результатах</p>
+            <div class="slider__inner">
+              <div class="slider__box">
+                <div class="slider-center">
+                  <div class="slider__box-item">
+                    <img src="./images/slider/slider-img.png" alt="img" class="slider__box-img">
+                  <div class="slider__box-title">Иван Петров</div>
+                  <div class="slider__box-subtitle">51 год, Москва</div>
+                  <img src="./images/slider/testimonial.png" alt="img" class="slider__box-testimonial">
+                  <div class="slider__box-text">
+                    Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст 
+                  </div>
+                </div>
+                </div>
+                <div class="slider-center">
+                  <div class="slider__box-item">
+                    <img src="./images/slider/slider-img.png" alt="img" class="slider__box-img">
+                    <div class="slider__box-title">Иван Петров</div>
+                    <div class="slider__box-subtitle">51 год, Москва</div>
+                    <img src="./images/slider/testimonial.png" alt="img" class="slider__box-testimonial">
+                    <div class="slider__box-text">
+                      Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст 
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-center">
+                  <div class="slider__box-item">
+                    <img src="./images/slider/slider-img.png" alt="img" class="slider__box-img">
+                    <div class="slider__box-title">Иван Петров</div>
+                    <div class="slider__box-subtitle">51 год, Москва</div>
+                    <img src="./images/slider/testimonial.png" alt="img" class="slider__box-testimonial">
+                    <div class="slider__box-text">
+                      Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст 
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-center">
+                  <div class="slider__box-item">
+                    <img src="./images/slider/slider-img.png" alt="img" class="slider__box-img">
+                    <div class="slider__box-title">Иван Петров</div>
+                    <div class="slider__box-subtitle">51 год, Москва</div>
+                    <img src="./images/slider/testimonial.png" alt="img" class="slider__box-testimonial">
+                    <div class="slider__box-text">
+                      Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст 
+                    </div>
+                  </div>
+                </div>
+               
+               
+               
+                
+              </div>
+            </div>
+            <a href="#" class="slider__button button">Найти психолога</a>
+          </div>
+        </section>
+
+       <section class="question">
+          <div class="container">
+            <h3 class="question__title title">Вопрос-ответ</h3>
+            <p class="question__subtitle subtitle">Часто задаваемые вопросы </p>
+              <div class="question-accardion">
+                <div class="question-accardion__left">
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Психологическое консультирование или
+                        психотерапия?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Что происходит на приеме у психолога?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Сколько стоит консультация психолога?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Сколько времени занимает прием психолога?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Что делать, если контакт с психологом не сложился?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-accardion__rigth">
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Как часто нужно проводить встречи с психологом?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Как долго это может продлиться?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Как оплатить консультацию психолога?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Можно ли отменить предстоящий сеанс?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Как вернуть деньги если сеанс не состоялся?</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question__wrapper">
+                    <div class="question-accardion__btn">
+                      <div class="question-accardion__title">Задать свой вопрос</div>
+                    </div>
+                    <div class="question-accardion__content">
+                      <div class="question-accardion__text">
+                        <p>
+                          Психотерапия в психологической практике представляет собой глубокую и, в некоторых случаях и подходах, долговременную работу, цель которой - значительные изменения 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <div class="certificate">
+          <div class="container">
+            <div class="certificate__box">
+              <div class="certificate__box-content">
+                <h3 class="certificate__box-title">
+                  Подари родным и близким
+                  подарочный сертификат
+                </h3>
+                <a href="#" class="certificate__box-btn">Выбрать сертификат</a>
+              </div>
+              <div class="certificate__box-img">
+                <img src="./images/material/sertificate.png" alt="img">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="materials">
+          <div class="container">
+            <h3 class="materials__title">Полезные материалы</h3>
+            <p class="materials__subtitle">Почитайте статьи, которые пишут для вас наши специалисты</p>
+            <div class="materials-box">
+              <div class="materials-box__item">
+                <img src="./images/material/cart.jpg" alt="img" class="materials-box__item-img">
+                <div class="materials-box__item-title">
+                  Текст текст текст
+                  текст текст
+                </div>
+                <div class="materials-box__item-text">
+                  текст текст текст текст текст текст
+                  текст текст текст текст текст
+                  текст текст текст 
+                </div>
+                <a href="#" class="materials-box__item-link">ЧИТАТЬ ДАЛЕЕ</a>
+              </div>
+              <div class="materials-box__item">
+                <img src="./images/material/cart.jpg" alt="img" class="materials-box__item-img">
+                <div class="materials-box__item-title">
+                  Текст текст текст
+                  текст текст
+                </div>
+                <div class="materials-box__item-text">
+                  текст текст текст текст текст текст
+                  текст текст текст текст текст
+                  текст текст текст 
+                </div>
+                <a href="#" class="materials-box__item-link">ЧИТАТЬ ДАЛЕЕ</a>
+              </div>
+              <div class="materials-box__item">
+                <img src="./images/material/cart.jpg" alt="img" class="materials-box__item-img">
+                <div class="materials-box__item-title">
+                  Текст текст текст
+                  текст текст
+                </div>
+                <div class="materials-box__item-text">
+                  текст текст текст текст текст текст
+                  текст текст текст текст текст
+                  текст текст текст 
+                </div>
+                <a href="#" class="materials-box__item-link">ЧИТАТЬ ДАЛЕЕ</a>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div class="footer-box__inner">
+            <div class="footer-box__item">
+              <a href="#" class="heading-block__logo">
+                <img src="./images/logo.png" alt="img" class="logo">
+              </a>
+              <div class="footer-box__text">
+                PERSONA - это удобная
+                платформа по подбору<br>
+                психолога вашей мечты
+              </div>
+            </div>
+            <div class="footer-box__item">
+              <ul class="footer-box__menu-list">
+                <li class="footer-box__menu-item">
+                  <a href="#" class="footer-box__menu-link footer-box__menu-link--active">О нас</a>
+                </li>
+                <li class="footer-box__menu-item">
+                  <a href="#" class="footer-box__menu-link">Полезные материалы</a>
+                </li>
+                <li class="footer-box__menu-item">
+                  <a href="#" class="footer-box__menu-link">Психологам</a>
+                </li>
+                <li class="footer-box__menu-item">
+                  <a href="#" class="footer-box__menu-link">Подарочные сертификаты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+          <div class="footer-box__item">
+            <div class="footer__inner-social">
+              <a href="#" class="footer__inner-link">
+               <img src="./images/vk.png" alt="img" class="footer__inner-img">
+              </a>
+              <a href="#" class="footer__inner-link">
+               <img src="./images/ins.png" alt="img" class="footer__inner-img">
+              </a>
+              <a href="#" class="footer__inner-link">
+               <img src="./images/youtube.png" alt="img" class="footer__inner-img">
+              </a>
+              <a href="#" class="footer__inner-link">
+               <img src="./images/telerram.png" alt="img" class="footer__inner-img">
+              </a>
+             </div>
+             <ul class="footer-box__list">
+              <li class="footer-box__list-item">
+                <a href="#" class="footer-box__list-link">Контакты</a>
+              </li>
+              <li class="footer-box__list-item">
+                <a href="#" class="footer-box__list-link">Вопросы-ответы</a>
+              </li>
+              <li class="footer-box__list-item">
+                <a href="#" class="footer-box__list-link">Политика конфиденциальности</a>
+              </li>
+             </ul>
+          </div>
+        </div>
+        <div class="footer__bootom">
+          <div class="footer__copyrigth">© 2022 PERSONA. Все права защищены</div>
+          <div class="footer__development">Разработано MANCH24</div>
+        </div>
+      </div>
+    </footer>
  
 
 

@@ -22,6 +22,13 @@
     font-size: 20px;
     font-weight: 400;
 }
+.header__register-link{
+    background-color: transparent;
+    border: none;
+}
+.header__register-link::placeholder{
+    color: $white;
+}
 .header__inner-link + .header__inner-link{
     margin-left: 10px;
 }
@@ -43,4 +50,7 @@
 }
 .header__user-img {
     margin-right: 15px;
+}
+.logo{
+    border-radius: 40px;
 }
